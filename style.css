@@ -1,0 +1,36 @@
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 18px 0;
+}
+ul{
+     display: flex;
+    justify-content: space-between;
+gap: 30px;
+list-style: none;
+align-items: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: #575757;
+}
+.common-button{
+    background-color:#1D4ED8;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius:8px;
+    cursor: pointer;
+}
+header{
+    background-color:white ;
+    padding: 0 30px;
+}
+nav ul a:hover{
+    background-color:#a2a8bb ;
+} 
+/* navbar end */
