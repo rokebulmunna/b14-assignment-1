@@ -1,4 +1,9 @@
 /* navbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -70,3 +75,55 @@ nav ul a:hover{
     font-size:28;
 }
 /* hero section end */
+/* speakers section */
+.speakers-section{
+   max-width: 1200px;
+   margin: 80px auto; 
+
+}
+.speakers-section h2{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    width: 100%;
+    padding: 20px;
+  
+}
+.card{
+    border: 1px solid #E5E7EB;
+        border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.card h5{
+    color: #6ea4fb;
+    font-size: 11px;
+  margin-bottom: 10px;
+margin-top: 18px;
+}
+.card h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card p{
+    color: #6B7280;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.card h5,.card h3,.card p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
