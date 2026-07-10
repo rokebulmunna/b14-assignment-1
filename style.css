@@ -291,3 +291,38 @@ margin-top: 18px;
 .journey-btn:hover{
     background-color: #154be1;
 }
+/* footer section start */
+footer{
+    max-width: 1200px;
+    padding: 20px;
+    margin: 80px auto 30px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.social-icon{
+    display: flex;
+    gap: 30px;
+}
+.social-icon i{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #6B7280;
+}
+.social-icon i:hover{
+    background-color:#2563EB;
+    color: white;
+}
+.footer-bottom{
+    text-align: center;
+    padding-top: 20px;
+}
