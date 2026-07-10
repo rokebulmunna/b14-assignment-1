@@ -1,0 +1,1 @@
+i had to make a relevant section now by using AI..which have to be relevant with the DevConf2026 project..this section may include (e.g. Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.).....so take a unique idea and prepare a design for..it must be unique and thematically perfect with the project
